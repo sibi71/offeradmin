@@ -100,7 +100,7 @@ export default defineConfig({
   server: {
     proxy: {
       "/api/": {
-        target: "http://localhost:5065",
+        target: "https://offerserver.onrender.com",
         changeOrigin: true,
       },
     },
