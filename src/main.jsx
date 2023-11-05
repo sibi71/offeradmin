@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import { Windmill } from "@windmill/react-ui";
 import { PersistGate } from "redux-persist/integration/react";
 import { persistStore } from "redux-persist";
-import "./main.css"
+
 
 // internal import
 import "rc-tree/assets/index.css";
